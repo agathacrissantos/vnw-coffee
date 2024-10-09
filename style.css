@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  height: 12.8vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0px 1px 8px 0px rgba(36, 36, 36, 0.1490196078);
+}
+header nav {
+  width: 19.5vw;
+  height: 3.3vh;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #242424;
+}
+
+main {
+  height: 87vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.firstContainer {
+  height: 45.4vh;
+  width: 36.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.firstContainer p {
+  font-size: 36px;
+  font-weight: 700;
+  color: #242424;
+}
+.firstContainer button {
+  width: 20.1vw;
+  height: 7.8vh;
+  background-color: #FCA60F;
+  color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+}
+.firstContainer div {
+  display: flex;
+  justify-content: space-evenly;
+  width: 11vw;
+}/*# sourceMappingURL=style.css.map */
